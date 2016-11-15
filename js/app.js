@@ -2,7 +2,7 @@
 var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
     $scope.modules = [
     {
-        _id : ObjectId('5828e870c66c89f5fbdfeeaa'),
+        _id : '5828e870c66c89f5fbdfeeaa',
         title : 'LAMP01',
         description : 'Streetlamp Type C',
         maintainedBy : 'Ankit Sharma',
@@ -13,7 +13,7 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         proximity : 1
     },
     {
-        _id : ObjectId('5828e870c66c89f5fbdfeeab'),
+        _id : '5828e870c66c89f5fbdfeeab',
         title : 'LAMP02',
         description : 'Streetlamp Type A',
         maintainedBy : 'Chris Chen',
@@ -25,7 +25,7 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         windSpeed : 20
     },
     {
-        _id : ObjectId('5828e870c66c89f5fbdfeeac'),
+        _id : '5828e870c66c89f5fbdfeeac',
         title : 'LAMP03',
         description : 'Streetlamp Type A',
         maintainedBy : 'Kassidy Knight',
@@ -36,7 +36,7 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         proximity : 0
     },
     {
-        _id : ObjectId('5828e870c66c89f5fbdfeead'),
+        _id : '5828e870c66c89f5fbdfeead',
         title : 'LAMP04',
         description : 'Streetlamp Type A',
         maintainedBy : 'Pascale Queralt',
