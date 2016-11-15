@@ -32,10 +32,7 @@
                     </p>
                     <div class="list-group">
                         <div ng-repeat="module in modules| filter:searchText | orderBy: 'name'" href="{{module.src}}" class="list-group-item">
-                            <p class="pull-right">
-                                <a href="{{module.home}}" title="Home / Demo page" ng-if="module.home"><i class="fa fa-3x fa-home"></i></a>
-                                <a href="{{module.src}}" title="Code"><i class="fa fa-3x fa-github"></i></a>
-                            </p>
+                            
                             <h4 class="list-group-item-heading">{{module.name}}</h4>
                             <p class="list-group-item-text text-muted">{{module.desc}}</p>
                         </div>
