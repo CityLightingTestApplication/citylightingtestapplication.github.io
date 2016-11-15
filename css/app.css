@@ -3,7 +3,7 @@ body {
 }
 .logo {
     height: 150px;
-    background: url('../logo/UI_Shield.png') no-repeat;
+    background: url('../logo/light.png') no-repeat;
     background-size: contain;
     background-position-x: 100%;
     margin-top: 10px;
@@ -26,4 +26,5 @@ body {
 .jumbotron {
     padding-top: 28px;
     padding-bottom: 18px;
+    color: #BF5700;
 }
