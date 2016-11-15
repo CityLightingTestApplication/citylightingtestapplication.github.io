@@ -34,6 +34,17 @@ var app = angular.module('demo', []).controller('DemoCtrl', function($scope) {
         "temperature" : 73,
         "humidity" : 96,
         "proximity" : 0
+    },
+    {
+        "_id" : ObjectId("5828e870c66c89f5fbdfeead"),
+        "title" : "LAMP04",
+        "description" : "Streetlamp Type A",
+        "maintainedBy" : "Pascale Queralt",
+        "address" : "4819 Forest Lane",
+        "lampStatus" : "operational",
+        "temperature" : 100,
+        "humidity" : 99,
+        "proximity" : 11
     }
     ];
 

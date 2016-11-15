@@ -33,8 +33,16 @@
                     <div class="list-group">
                         <div ng-repeat="module in modules| filter:searchText | orderBy: 'name'" href="{{module.src}}" class="list-group-item">
                             
-                            <h4 class="list-group-item-heading">{{module.name}}</h4>
-                            <p class="list-group-item-text text-muted">{{module.desc}}</p>
+                            <h4 class="list-group-item-heading">{{module.title}}</h4>
+                            <p class="list-group-item-text text-muted">{{module.description}}</p>
+                            <p class="list-group-item-text text-muted">{{module.maintainedBy}}</p>
+                            <p class="list-group-item-text text-muted">{{module.description}}</p>
+                            <p class="list-group-item-text text-muted">{{module.address}}</p>
+                            <p class="list-group-item-text text-muted">{{module.lampStatus}}</p>
+                            <p class="list-group-item-text text-muted">{{module.temperature}}</p>
+                            <p class="list-group-item-text text-muted">{{module.humidity}}</p>
+                            <p class="list-group-item-text text-muted">{{module.proximity}}</p>
+                            <p class="list-group-item-text text-muted">{{module.windSpeed}}</p>
                         </div>
                     </div>
                 </section>
