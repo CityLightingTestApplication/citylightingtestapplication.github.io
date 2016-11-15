@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html id="top" lang="en" ng-app="demo">
     <head>
-        <title>AngularUI for AngularJS</title>
+        <title>Smart City Lighting Test Application</title>
 
         <link href="logo/UI_Shield.png" rel="shortcut icon">
 
@@ -16,19 +16,19 @@
                 <div class="container">
                     <div class="col-sm-3 logo"></div>
                     <div class="col-sm-7">
-                        <h1>AngularUI</h1>
+                        <h1>Smart City Lighting</h1>
 
-                        <p>The companion suite(s) to the <a href="http://angularjs.org">AngularJS</a> framework.</p>
+                        <p>Test application for Smart City Lighting project.</p>
                     </div>
                 </div>
             </header>
 
             <div class="container" >
                 <section id="modules">
-                    <h1 class="page-header">Modules</h1>
+                    <h1 class="page-header">Lights</h1>
                     <p class="text-muted">
                         <input class="form-control" autofocus="autofocus" style="max-width: 15em; display: inline-block;" ng-model="searchText" placeholder="search...">
-                        {{(modules| filter:searchText).length}} modules found
+                        {{(modules| filter:searchText).length}} lights found
                     </p>
                     <div class="list-group">
                         <div ng-repeat="module in modules| filter:searchText | orderBy: 'name'" href="{{module.src}}" class="list-group-item">
@@ -40,35 +40,8 @@
                             <p class="list-group-item-text text-muted">{{module.desc}}</p>
                         </div>
                     </div>
-
                 </section>
 
-
-                <section id="ide-plugins">
-                    <h1 class="page-header">IDE Plugins <small>AngularJS support in your favorite text editors</small></h1>
-
-                    <div class="clearfix">
-                        <ul class="nav nav-tabs nav-stacked col-md-6">
-                            <li>
-                                <a href="http://github.com/angular-ui/AngularJS.tmbundle">AngularJS.tmbundle <span class="text-muted">TextMate</span></a>
-                            </li>
-
-                            <li>
-                                <a href="http://github.com/angular-ui/AngularJS-Atom">AngularJS-Atom <span class="text-muted">Atom</span></a>
-                            </li>
-                        </ul>
-
-                        <ul class="nav nav-tabs nav-stacked col-md-6">
-                            <li>
-                                <a href="http://github.com/angular-ui/AngularJS-sublime-package">AngularJS.sublime-package <span class="text-muted">SublimeText</span></a>
-                            </li>
-
-                            <li>
-                                <a href="http://github.com/angular-ui/AngularJS-brackets">AngularJS-brackets <span class="text-muted">Brackets</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </section>
             </div>
         </div>
 
