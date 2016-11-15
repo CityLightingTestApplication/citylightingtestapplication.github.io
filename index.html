@@ -3,8 +3,6 @@
     <head>
         <title>Smart City Lighting Test Application</title>
 
-        <link href="logo/bulb.png" rel="shortcut icon">
-
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href="css/app.css" rel="stylesheet">
@@ -34,15 +32,14 @@
                         <div ng-repeat="module in modules| filter:searchText | orderBy: 'title'" class="list-group-item">
                             
                             <h4 class="list-group-item-heading">{{module.title}}</h4>
-                            <p class="list-group-item-text text-muted">{{module.description}}</p>
-                            <p class="list-group-item-text text-muted">{{module.maintainedBy}}</p>
-                            <p class="list-group-item-text text-muted">{{module.description}}</p>
-                            <p class="list-group-item-text text-muted">{{module.address}}</p>
-                            <p class="list-group-item-text text-muted">{{module.lampStatus}}</p>
-                            <p class="list-group-item-text text-muted">{{module.temperature}}</p>
-                            <p class="list-group-item-text text-muted">{{module.humidity}}</p>
-                            <p class="list-group-item-text text-muted">{{module.proximity}}</p>
-                            <p class="list-group-item-text text-muted">{{module.windSpeed}}</p>
+                            <p class="list-group-item-text text-muted">Description: {{module.description}}</p>
+                            <p class="list-group-item-text text-muted">Maintained By: {{module.maintainedBy}}</p>
+                            <p class="list-group-item-text text-muted">Address: {{module.address}}</p>
+                            <p class="list-group-item-text text-muted">Lamp Status: {{module.lampStatus}}</p>
+                            <p class="list-group-item-text text-muted">Temperature: {{module.temperature}}</p>
+                            <p class="list-group-item-text text-muted">Humidity: {{module.humidity}}</p>
+                            <p class="list-group-item-text text-muted">Proximity: {{module.proximity}}</p>
+                            <p class="list-group-item-text text-muted">Wind Speed: {{module.windSpeed}}</p>
                         </div>
                     </div>
                 </section>
